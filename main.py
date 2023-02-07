@@ -52,3 +52,8 @@ while continuacao == 'sim':
      else:
         print("Infelizmente, você perdeu!")
      listaPalavras.remove(palAleatoria)#remove a palavra sorteada da lista de palavras
+     if len(listaPalavras) >=2:#se a lista de palavras tiver 2 ou mais palavras, pergunta ao usuário se ele quer continuar jogando.
+        continuacao = str(input('Deseja jogar novamente?\n')).lower()
+     else:
+        break
+print('FIM DE JOGO!')
