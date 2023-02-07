@@ -25,3 +25,7 @@ while continuacao == 'sim':
      for i in palAleatoria: #transforma a palavra aleatoria em uma lista de letras dentro da variavel palDescrypt
         palDescrypt.append(i)    
      tam = len(palAleatoria)     
+
+     for i in range(0, tam):#verifica o tamanho da varivel tam e adiciona um hífen na variável palCrypt a cada passada pelo for
+        palCrypt.append("-")
+     print("".join(palCrypt))
