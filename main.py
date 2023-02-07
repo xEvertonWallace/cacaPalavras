@@ -47,3 +47,7 @@ while continuacao == 'sim':
           for i in range(0, tam):
             if palCrypt[i] == "-" :#verifica se ainda existe hífen na palCrypt 
                 acertou = False
+     if palDescrypt == palCrypt:#verifica se as palavras da palDescrypt e palCrypt são iguais
+        print("Parabéns! você ganhou o jogo!")
+     else:
+        print("Infelizmente, você perdeu!")
