@@ -17,7 +17,11 @@ while i <= qtd:
 
 continuacao = 'sim'
 while continuacao == 'sim':
-    
-    palAleatoria = random.choice(listaPalavras)#sorteia e armazena uma das palavras da lista.
-    palDescrypt = list() 
-    palCrypt = list()
+     
+     palAleatoria = random.choice(listaPalavras)#sorteia e armazena uma das palavras da lista.
+     palDescrypt = list() 
+     palCrypt = list()
+
+     for i in palAleatoria: #transforma a palavra aleatoria em uma lista de letras dentro da variavel palDescrypt
+        palDescrypt.append(i)    
+     tam = len(palAleatoria)     
