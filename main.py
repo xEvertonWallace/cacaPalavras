@@ -51,3 +51,4 @@ while continuacao == 'sim':
         print("Parabéns! você ganhou o jogo!")
      else:
         print("Infelizmente, você perdeu!")
+     listaPalavras.remove(palAleatoria)#remove a palavra sorteada da lista de palavras
