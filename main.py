@@ -43,3 +43,7 @@ while continuacao == 'sim':
             print("Essa letra não existe na palavra.")
           print("".join(palCrypt))
           acertou = True
+
+          for i in range(0, tam):
+            if palCrypt[i] == "-" :#verifica se ainda existe hífen na palCrypt 
+                acertou = False
