@@ -8,7 +8,6 @@
 
 Atenção, o projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Codificação do sistema em módulos;
 - [x] Criação do aplicativo em CLI;
 - [ ] Implementação de arquivo xls para palavras aleatórias.
 - [ ] Interface gráfica.
